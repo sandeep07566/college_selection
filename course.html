@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT 3 ABOUT COLLEGES.....</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<body>
+    <header class="sub-header">
+        <nav class='navbar'>
+            <a href="index.html"><img src="image/eduford_img/logo.png" alt=""></a>
+            <div class="nav-links" id='navlinks'>
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul class='navitems'>
+                        <li class="nav-item"><a href="index.html">HOME</a></li>
+                        <li class="nav-item"><a href="about.html">ABOUT</a></li>
+                        <li class="nav-item"><a href="course.html">COURSE</a></li>
+                        <li class="nav-item"><a href="blog.html">BLOG</a></li>
+                        <li class="nav-item"><a href="contact.html">CONTACT</a></li>
+                    </ul>  
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+        <h1>Our Courses</h1>
+    </header>
+
+    <!-- ----------- courses ------------ -->
+
+
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, beatae!</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediat</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi aliquid, maxime recusandae voluptas nisi nulla sint quibusdam optio est ipsam. Magni quas nihil consequatur molestias exercitationem, similique sunt cum cupiditate.</p>
+            </div>
+
+            <div class="course-col">
+             <h3>Degree</h3>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi aliquid, maxime recusandae voluptas nisi nulla sint quibusdam optio est ipsam. Magni quas nihil consequatur molestias exercitationem, similique sunt cum cupiditate.</p>
+         </div>
+
+         <div class="course-col">
+             <h3>Post gratuation</h3>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi aliquid, maxime recusandae voluptas nisi nulla sint quibusdam optio est ipsam. Magni quas nihil consequatur molestias exercitationem, similique sunt cum cupiditate.</p>
+         </div>
+        </div>
+    </section>
+
+    <!-- ---------------- facilities -----------  -->
+
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, beatae!</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="image/eduford_img/library.png">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui rem labore nesciunt laborum eveniet earum eligendi, iste quaerat harum necessitatibus blanditiis nobis, tempore, adipisci hic aliquid aut eaque maiores provident.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="image/eduford_img/basketball.png">
+                <h3>Largest Play Ground </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui rem labore nesciunt laborum eveniet earum eligendi, iste quaerat harum necessitatibus blanditiis nobis, tempore, adipisci hic aliquid aut eaque maiores provident.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="image/eduford_img/cafeteria.png">
+                <h3>Tasty And Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui rem labore nesciunt laborum eveniet earum eligendi, iste quaerat harum necessitatibus blanditiis nobis, tempore, adipisci hic aliquid aut eaque maiores provident.</p>
+            </div>
+        </div>
+    </section>
+    
+
+
+         <!-- ------------- footer ------------  -->
+
+         <section class="footer">
+             <h4>About Us</h4>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus assumenda<br> dolores totam in aliquam autem vel iusto mollitia sunt amet.</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>MADE WITH <i class="fa fa-heart-o"></i> BY SANDEEP JAIN</p>
+         </section>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <!-- ############ javascript for toggle menu ############ -->
+    <script>
+
+            var navlinks = document.getElementById("navlinks");
+
+             function showmenu(){
+                 navlinks.style.right = "0";
+             }
+
+
+             function hidemenu(){
+                 navlinks.style.right = "-200px";
+             }
+             
+    </script>
+    
+</body>
+</html>
